@@ -27,11 +27,7 @@ export default {
     },
     computed: {
        check() {
-            // let prev = this.checkedItems.length;
            this.$emit('updated', this.checkedItems.length)
-           if(this.checkedItems.length == 0){
-            console.log('sth bad')
-           }
            return this.checkedItems.length;
        }
     }
@@ -54,7 +50,7 @@ export default {
     }
 
     .container {
-        font-weight: 400;
+        font-weight: 700;
     }
 }
 

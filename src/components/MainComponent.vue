@@ -46,33 +46,15 @@ export default {
             this.isActive = false;
         },
         changeHandler(value) {
-            
             this.checked = value;
-            // if(this.checked < 1) {
-            //     console.log('sth', this.checked);
-              
-            // }
-            // console.log("this.checked = ");
-            // console.log(this.checked);
-            // let value = this.checkedItems;
-            // return this.checkedItems;
-            
         }
     },
-    // computed: {
-    //     check() {
-    
-    //     }
-    // }
-
-
 };
 </script>
 
 <style scoped lang="scss">
     .main__block {
         display: flex;
-        // border: 1px solid red;
         height: 100vh;
         justify-content: center;
         align-items: center;
@@ -89,7 +71,6 @@ export default {
 
         .show-dropdown {
             display: none;
-           
         }
 
         &--error-block {
@@ -103,13 +84,11 @@ export default {
         }
 
         &--dropdown-block {
-            // border: 1px solid red; 
             display: flex;
             justify-content: center;
             align-items: center;
             flex-flow: column;
             height: auto;
-
         }
 
         &--dropdown-btn {
@@ -125,7 +104,6 @@ export default {
             font-size: 0.9rem;
             align-items: center;
             color: rgb(70, 70, 70);
-            // transition: 0.3s;
         }
 
         &--dropdown-btn:hover {
@@ -139,8 +117,6 @@ export default {
             border-radius: 4px;
             color: #ffffff;
             font-size: 0.8rem;
-
         }
-
     }
 </style>
