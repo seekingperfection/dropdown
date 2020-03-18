@@ -52,7 +52,7 @@ html, body {
   
   /* On mouse-over, add a grey background color */
   .container:hover input ~ .checkmark {
-    background-color: rgb(70, 70, 70);
+    background-color: #cccccc;
   }
   
   /* When the checkbox is checked, add a blue background */
@@ -62,7 +62,7 @@ html, body {
 
   .container input:not(:checked) ~ .checkmark {
       box-sizing: border-box;
-    border: 1px solid rgb(70, 70, 70);
+    border: 1px solid #cccccc;
   }
   
   /* Create the checkmark/indicator (hidden when not checked) */
